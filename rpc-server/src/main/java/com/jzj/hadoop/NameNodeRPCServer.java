@@ -11,6 +11,10 @@ public class NameNodeRPCServer implements ClientProtocols {
         System.out.println("执行创建文件夹"+path);
     }
 
+    public void upload(String path) {
+        System.out.println("上传文件"+path);
+    }
+
 
     public static void main(String[] args) throws IOException {
         RPC.Server server = new RPC.Builder(new Configuration())

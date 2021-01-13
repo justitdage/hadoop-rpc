@@ -18,7 +18,7 @@ public class DFSClient {
         );
 
         client.mkdir("/user/java");
-
+        client.upload("/user/java");
 
     }
 }
